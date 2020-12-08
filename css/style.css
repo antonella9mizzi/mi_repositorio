@@ -358,24 +358,21 @@ header {
   background-color: #fde1d3;
   border: solid #fde1d3 2px; }
 
-.categorias {
-  text-align: center;
-  background-color: #597470;
-  padding: 10px 3px 0px 3px;
-  margin: 5px 5px 5px 5px;
-  border: solid  #597470 2px;
-  font-weight: 600;
-  font-family: 'montserrat', sans-serif;
-  font-size: 1.5rem;
-  color: white;
-  height: 35px;
-  width: 120px; }
+.categoriaImgD {
+  padding: 15px 0px 15px 10px;
+  margin-left: 60px; }
 
-.categorias:hover {
-  color: #3e4d4b;
-  border: solid #fde1d3 2px;
-  background-color: #fde1d3;
-  text-align: center; }
+.categoriaImgI {
+  padding: 15px 10px 15px 00px;
+  margin-right: 60px; }
+
+.categoriaTextD {
+  margin-right: 2rem;
+  padding-right: 0.35rem; }
+
+.categoriaTextI {
+  margin-left: 2rem;
+  padding-left: 0.35rem; }
 
 footer {
   background-color: #6e8f8b;
@@ -385,3 +382,27 @@ footer {
     width: 45px;
     height: 45px;
     margin-top: 1rem; }
+
+/* ACNEICA */
+.superposicionImg {
+  display: block;
+  position: relative; }
+
+.superposicionText {
+  display: block;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  padding: 5px; }
+
+.marginEsquinaI {
+  margin-left: 5rem;
+  margin-right: 1rem; }
+
+.margin {
+  margin-left: 1rem;
+  margin-right: 1rem; }
+
+.textoProducto {
+  padding: 0px;
+  text-align: center; }
