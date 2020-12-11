@@ -10,6 +10,11 @@ body{
     background-color: $colorBackground;
 }
 
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: $blanco;
+}
+
 /*Tipografia*/
 .fontL{
     font-size: $fontL;
@@ -45,7 +50,26 @@ body{
 .colorBlanco{
     color: $blanco;
 }
+/* en comun */ 
+.rectanguloBlanco{
+    background-color: white;
+    padding: 1rem 1rem 1rem 1rem;
+    margin: 1.5rem 0rem 1.5rem 0rem;
+    color: $colorDestacado;
+}
 
+.rectanguloGuia{
+    background-color: #cee2d7;
+    padding: 1rem 1rem 1rem 1rem;
+    margin: 1.5rem 0rem 1.5rem 0rem;
+    color:$colorDestacado;
+}
+.margin{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/**/
 header{
     background-color: $colorBackgroundHeader;
     color: $blanco;
@@ -170,12 +194,7 @@ header{
     background-color: #fde1d3;
     border: solid #fde1d3 2px;
   }
-.rectanguloBlanco{
-    background-color: white;
-    padding: 1rem 1rem 1rem 1rem;
-    margin: 1.5rem 0rem 1.5rem 0rem;
-    color: $colorDestacado;
-}
+
 #buttonSetIndex{
     color: $blanco ;
     text-align: center;
@@ -210,23 +229,21 @@ header{
 }
 /* guia*/
 #ejemploRutina{
-    border: solid  #51646a 5px;
+    border: solid  #51646a 2px;
     align-content: center;
     background-color:#cee2d7 ;
     padding: 1rem 1rem 1rem 1rem;
 }
-#tableGuia{
-    background-color: #cee2d7;
-    border-color: #51646a;
-    color: black;
-    font-family: 'montserrat',
-    sans-serif;
-    font-size: $fontXS;
-}
 .imgProductoGuia {
-    width: 120px;
+    width: 200px;
     height: auto;
-    border: solid  #fde1d3 2px ;
+    border:none;
+}
+.linea1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
 }
 .productosGuia{
     display: flex;
@@ -235,39 +252,7 @@ header{
     justify-content: space-around;
 }
 /* preguntas */ 
-#articuloPreguntas1{
-    border: solid #a3b0a7  5px;
-    align-content: center;
-    background-color: #ecbdb7;
-    padding: 1rem 1rem 1rem 1rem;
-}
-#articuloPreguntas2{
-    border: solid  #a3b0a7  5px;
-    align-content: center;
-    background-color:#fee2db;
-    padding: 1rem 1rem 1rem 1rem;
-}
-#articuloPreguntas3{
-    border: solid  #a3b0a7  5px;
-    align-content: center;
-    background-color:#fbccd2 ;
-    padding: 1rem 1rem 1rem 1rem;
-}
-#articuloPreguntas4{
-    border: solid  #a3b0a7  5px;
-    align-content: center;
-    background-color:#f8c3bd ;
-    padding: 1rem 1rem 1rem 1rem;
-}
-#tablePregunta{
-    display: inline-block;
-    background-color: #faefb7;
-    border-color: #a3b0a7  ;
-    color: black;
-    font-family: 'montserrat',
-    sans-serif;
-    font-size: 1.5rem;
-}
+
 #productosSugeridosPreguntas{
     border: solid  #fde1d3 5px;
     align-content: center;
@@ -422,11 +407,15 @@ footer{
     background-color: $colorBackgroundFooter;
     color: $blanco;
     font-size: $fontXS;
-        img{
-            width: 45px;
-            height:45px;
-            margin-top: 1rem;
+        div{          
+            img{
+                width: 30px;
+                height:30px;
+                margin-top: 1rem;
+                margin-left: 3rem;
+            }
         }
+      
 }
 /* ACNEICA */ 
 .superposicionImg{
@@ -444,10 +433,7 @@ footer{
     margin-left: 5rem;
     margin-right: 1rem;
 }
-.margin{
-    margin-left: 1rem;
-    margin-right: 1rem;
-}
+
 .textoProducto{
     padding: 0px;
     text-align: center;

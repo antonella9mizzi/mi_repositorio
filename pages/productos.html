@@ -34,11 +34,10 @@
                 </div>   
             </nav>
         </header>
-        <div class="row">
-            <div class="col-md-1"></div> <!-- columna vacia -->
-            <section class="col-md-8">
+        <div class= "row">
+            <section class="col-md-9" style="margin: 1rem 2rem 0rem 2rem">
                 <div id="demo" class="carousel slide" data-ride="carousel">
-
+    
                     <ul class="carousel-indicators">
                       <li data-target="#demo" data-slide-to="0" class="active"></li>
                       <li data-target="#demo" data-slide-to="1"></li>
@@ -46,25 +45,25 @@
                     </ul>
                     
                     <div class="carousel-inner">
-                        <div class="carousel-item active">
-                          <img src="../img/Slider1.jpg" alt="slider1" class="img-fluid" >
-                        </div>
-                        <div class="carousel-item">
-                          <img src="../img/Slider4.jpg" alt="slider2" class="img-fluid" >
-                        </div>
-                        <div class="carousel-item">
-                          <img src="../img/slider3.jpg" alt="slider3" class="img-fluid">
-                        </div>
+                      <div class="carousel-item active">
+                        <img src="../img/Slider1.jpg" alt="slider1" class="img-fluid" >
                       </div>
+                      <div class="carousel-item">
+                        <img src="../img/slider4.jpg" alt="slider4" class="img-fluid" >
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../img/slider3.jpg" alt="slider3" class="img-fluid">
+                      </div>
+                    </div>
                 </div>    
-            </section>
-            <section id="suscribiteProductos" class="col-md-3">
-                    <form actions="#" methods="post"></form>
-                        <p class="fontS">Suscribite</p> 
-                        <p class="fontXS">a nuestro newsletter y obtene un 20% de descuento en tu primera orden</p>
-                        <div class="parrafo1">Email</div>
-                        <input type="text" placeholder="Email">
-                        <input type= "submit" value="Suscribirme" id="buttonSuscribirmeProductos">
+            </section>  
+            <section  class="col-md-2 rectanguloGuia " style="margin-right: 3rem; margin-left: 2rem; padding: 2rem 2rem 2rem 2rem">
+                <form actions="#" methods="post">
+                    <p class=" colorBlanco fontBold fontM" style="margin-bottom: 0px;">Suscribite</p> 
+                    <p class=" colorBlanco fontThin fontS" style="margin-top: 0px;">a nuestro newsletter y obtene un 20% de descuento en tu primera orden</p>
+                    <div class="fontBold fontS colorBlanco">Email</div>
+                    <input type="text" placeholder="Email">
+                    <input type= "submit" value="Suscribirme" id="buttonSuscribirmeIndex">
             </section>
         </div>
     <br> <br> <!-- recorda eliminar los br -->
@@ -113,27 +112,48 @@
          </div>
      </div>
 
-<footer class="container-fluid">
-    <div class="row">    
-        <div class="centrado">
-            <!-- Facebook -->
-            <a href="https://www.facebook.com/antonella.mizzi.39/"class="col-md-4 py-5">
-            <img src="../img/FbPNG.png"class="imgLogoFooter">
-            </a>
-            <!--Instagram-->
-            <a href="https://www.instagram.com/antommizzi/" class="col-md-4 py-5">
-            <img src="../img/IgPNG.png"class="imgLogoFooter">
-            </a>
-            <!--Pinterest-->
-            <a href="https://www.pinterest.es/antxnella9696/" class="col-md-4 py-5">
-            <img src="../img/PinPNG.png"class="imgLogoFooter">
-            </a>
+     <footer class="container-fluid">
+        <div class="row">
+            <div class="col-md-1"></div>    
+            <div class="col-md-3">
+                <p class="fontBold colorBlanco fontS">Conectate</p>
+                <!-- Facebook -->
+                <a href="https://www.facebook.com/antonella.mizzi.39/">
+                    <img src="../img/FbPNG.png"class="imgLogoFooter">
+                    <p class="fontNormal colorBlanco fontXS"> Clair de Lune</p>
+                </a>
+                <!--Instagram-->
+                <a href="https://www.instagram.com/antommizzi/">
+                    <img src="../img/IgPNG.png"class="imgLogoFooter"> 
+                    <p class="fontNormal colorBlanco fontXS"> @clairdelune</p>
+                </a>
+                <!--Pinterest-->
+                <a href="https://www.pinterest.es/antxnella9696/"> 
+                    <img src="../img/PinPNG.png"class="imgLogoFooter">
+                    <p class="fontNormal colorBlanco fontXS"> Clair de lune</p>
+                </a>
+            </div>
+            <div class="col-md-1"></div> 
+            <div class="col-md-3">
+                <p class="fontBold colorBlanco fontS"> Nuestras lineas </p>
+                <div class="fontNormal colorBlanco fontXS">
+                    <a href="../pages/antiage.html"><p>AntiAge</p></a>
+                    <a href="../pages/sensible.html"><p>Sensible</p></a>
+                    <a href="../pages/seca.html"><p>Seca</p></a>
+                    <a href="../pages/acneica.html"><p>Acneica</p></a> 
+                </div>
+            </div>
+            <div class="col-md-1"></div> 
+            <div class="col-md-3">
+                <p class="fontBold colorBlanco fontS"> Clair de Lune </p>
+                <div class="fontNormal colorBlanco fontXS">
+                    <p>Guia de uso</p>
+                    <p>Preguntas Frecuentes</p>
+                    <p>Contactanos</p>
+                </div>
+            </div>
         </div>
-    </div>
-<div class="footer-copyright text-center py-3">© 2020 Copyright:
-<a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
-</div>
-</footer>    
+     </footer>           
 <!-- bootstrap -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
