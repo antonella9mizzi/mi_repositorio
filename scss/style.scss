@@ -53,21 +53,26 @@ a:link, a:visited, a:active {
 /* en comun */ 
 .rectanguloBlanco{
     background-color: white;
-    padding: 1rem 1rem 1rem 1rem;
-    margin: 1.5rem 0rem 1.5rem 0rem;
+    padding: 2%;
+    margin: 2% 0 2% 0;
     color: $colorDestacado;
 }
 
 .rectanguloGuia{
     background-color: #cee2d7;
-    padding: 1rem 1rem 1rem 1rem;
-    margin: 1.5rem 0rem 1.5rem 0rem;
+    padding: 2%;
+    margin: 2% 0 2% 0;
     color:$colorDestacado;
 }
 .margin{
     margin-left: 1rem;
     margin-right: 1rem;
 }
+.marginEsquinaI{
+    margin-left: 5rem;
+    margin-right: 1rem;
+}
+
 
 /**/
 header{
@@ -94,8 +99,11 @@ header{
                 li{
                     display: inline-block;
                     font: white;
-                    width: 19%;
+                    font-size: $fontXS;
+                    width: 20%;
                     position: relative;
+                    padding: 0;
+                    margin-right: 3px ;
                     ul{
                         list-style-type: none;
                         list-style: none;
@@ -403,6 +411,7 @@ header{
     margin-left: 2rem;
     padding-left: 0.35rem;
 }
+/*FOOTER*/
 footer{
     background-color: $colorBackgroundFooter;
     color: $blanco;
@@ -429,12 +438,22 @@ footer{
     left: 0;
     padding: 5px;
 }
-.marginEsquinaI{
-    margin-left: 5rem;
-    margin-right: 1rem;
-}
 
 .textoProducto{
     padding: 0px;
     text-align: center;
+}
+
+/* EJEMPLO  PRODUCTO*/
+.marginEjemplo{
+    margin: 5% 
+}
+.paddingEjemplo {
+    padding: 3%;
+}
+.imgProductoEjemplo {
+    width: 30%;
+    height: auto;
+    margin: 1.25%;
+    padding-right: 1.5%;
 }
